@@ -907,7 +907,6 @@ button:not(
     background: var(--orange);
     transition: all 0.2s ease;
     height: 4px;
-    top: 66px;
   }
 
   header .tools {

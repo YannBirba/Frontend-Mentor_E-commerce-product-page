@@ -174,7 +174,7 @@ const displayCartProducts = () => {
     deleteCartProductButtonClicked(cartProductRemoveButton);
     cartProductImage.setAttribute(
       "src",
-      `/images/image-product-${product.id}-thumbnail.jpg`
+      `images/image-product-${product.id}-thumbnail.jpg`
     );
     cartProductImage.setAttribute("alt", product.name);
     cartProductImage.setAttribute("title", product.name);

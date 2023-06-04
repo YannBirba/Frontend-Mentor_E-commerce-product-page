@@ -122,7 +122,7 @@ const arrowNav = (/** @type {string} prefix */ prefix = "") => {
       throw new Error("function arrowNav : No image found");
     }
 
-    img.setAttribute("src", "/images/icon-previous-orange.svg");
+    img.setAttribute("src", "images/icon-previous-orange.svg");
   });
 
   prevButton.addEventListener("mouseleave", () => {
@@ -132,7 +132,7 @@ const arrowNav = (/** @type {string} prefix */ prefix = "") => {
       throw new Error("function arrowNav : No image found");
     }
 
-    img.setAttribute("src", "/images/icon-previous.svg");
+    img.setAttribute("src", "images/icon-previous.svg");
   });
 
   nextButton.addEventListener(
@@ -147,7 +147,7 @@ const arrowNav = (/** @type {string} prefix */ prefix = "") => {
       throw new Error("function arrowNav : No image found");
     }
 
-    img.setAttribute("src", "/images/icon-next-orange.svg");
+    img.setAttribute("src", "images/icon-next-orange.svg");
   });
 
   nextButton.addEventListener("mouseleave", () => {
@@ -157,7 +157,7 @@ const arrowNav = (/** @type {string} prefix */ prefix = "") => {
       throw new Error("function arrowNav : No image found");
     }
 
-    img.setAttribute("src", "/images/icon-next.svg");
+    img.setAttribute("src", "images/icon-next.svg");
   });
 };
 
@@ -345,7 +345,7 @@ const openLightbox = () => {
         throw new Error("function openLightbox : No image found");
       }
 
-      img.setAttribute("src", "/images/icon-close-orange.svg");
+      img.setAttribute("src", "images/icon-close-orange.svg");
     });
 
     lightboxButton.addEventListener("mouseleave", () => {
@@ -355,7 +355,7 @@ const openLightbox = () => {
         throw new Error("function openLightbox : No image found");
       }
 
-      img.setAttribute("src", "/images/icon-close-white.svg");
+      img.setAttribute("src", "images/icon-close-white.svg");
     });
 
     lightboxTag.addEventListener("click", (e) => {

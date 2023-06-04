@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <button type="menu" class="mobile-menu-trigger">
+            <img decoding="async" loading="lazy" src="/images/icon-menu.svg" alt="Menu icon" title="Nav menu" />
+          </button>
+          <a href="/">
+            <img decoding="async" loading="lazy" src="/images/logo.svg" alt="Sneakers logo" title="Sneakers" />
+          </a>
+          <ul>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="tools">
+          <button type="button" class="cart-button">
+            <img decoding="async" loading="lazy"
+              src="/images/icon-cart.svg"
+              alt="Cart icon"
+              title="Cart icon"
+              width="16"
+              height="16"
+            />
+          </button>
+          <a href="#">
+            <img decoding="async" loading="lazy"
+              src="/images/image-avatar.png"
+              alt="User icon"
+              title="User icon"
+              width="16"
+              height="16"
+            />
+          </a>
+        </div>
+      </header>
+      <hr class="desktop-menu-separator" />
+        <section class="product-page__content">
+          <aside class="product-page__images">
+            <div class="carousel">
+              <button type="button" class="previous">
+                <img decoding="async" loading="lazy"
+                  src="/images/icon-previous.svg"
+                  alt="Previous icon"
+                  title="Previous image"
+                  width="13"
+                  height="18"
+                />
+              </button>
+              <div class="images">
+                <img decoding="async" loading="lazy"
+                  src="/images/image-product-1.jpg"
+                  alt="Sneaker image 1"
+                  title="Sneaker image 1"
+                  width="1000"
+                  height="1000"
+                />
+                <img decoding="async" loading="lazy"
+                  src="/images/image-product-2.jpg"
+                  alt="Sneaker image 2"
+                  title="Sneaker image 2"
+                  width="1000"
+                  height="1000"
+                />
+                <img decoding="async" loading="lazy"
+                  src="/images/image-product-3.jpg"
+                  alt="Sneaker image 3"
+                  title="Sneaker image 3"
+                  width="1000"
+                  height="1000"
+                />
+                <img decoding="async" loading="lazy"
+                  src="/images/image-product-4.jpg"
+                  alt="Sneaker image 4"
+                  title="Sneaker image 4"
+                  width="1000"
+                  height="1000"
+                />
+              </div>
+              <button type="button" class="next">
+                <img decoding="async" loading="lazy"
+                  src="/images/icon-next.svg"
+                  alt="Next icon"
+                  title="Next image"
+                  width="13"
+                  height="18"
+                />
+              </button>
+            </div>
+            <div class="thumbs">
+              <button class="active">
+                <img decoding="async" loading="lazy"
+                  src="/images/image-product-1-thumbnail.jpg"
+                  alt="Sneaker thumb 1"
+                  title="Sneaker thumb 1"
+                  width="176"
+                  height="176"
+                />
+              </button>
+              <button>
+                <img decoding="async" loading="lazy"
+                  src="/images/image-product-2-thumbnail.jpg"
+                  alt="Sneaker thumb 2"
+                  title="Sneaker thumb 2"
+                  width="176"
+                  height="176"
+                />
+              </button>
+              <button>
+                <img decoding="async" loading="lazy"
+                  src="/images/image-product-3-thumbnail.jpg"
+                  alt="Sneaker thumb 3"
+                  title="Sneaker thumb 3"
+                  width="176"
+                  height="176"
+                />
+              </button>
+              <button>
+                <img decoding="async" loading="lazy"
+                  src="/images/image-product-4-thumbnail.jpg"
+                  alt="Sneaker thumb 4"
+                  title="Sneaker thumb 4"
+                  width="176"
+                  height="176"
+                />
+              </button>
+            </div>
+          </aside>
+          <section class="product__description">
+            <h2>Sneaker Company</h2>
+            <h1>
+              Fall Limited Edition <br />
+              Sneakers
+            </h1>
+            <p>
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+                    <div class="price">
+          <p>
+            <strong class="current-price">$125.00</strong>
+            <span class="discount">50%</span>
+          </p>
+          <p class="previous-price">$250.00</p>
+        </div>
+        <form>
+          <div class="number-input">
+            <button class="minus">
+              <img decoding="async" loading="lazy"
+                src="/images/icon-minus.svg"
+                alt="Minus icon"
+                title="Remove one"
+              />
+            </button>
+            <input
+              type="number"
+              name="product-number"
+              id="product-number"
+              value="1"
+              inputmode="numeric"
+              pattern="[0-9]*"
+              min="1"
+              max="10"
+            />
+            <button class="plus">
+              <img decoding="async" loading="lazy"
+                src="/images/icon-plus.svg"
+                alt="Plus icon"
+                title="Add one"
+              />
+            </button>
+          </div>
+          <button type="submit" class="add-to-cart">
+            <img decoding="async" loading="lazy"
+              src="/images/icon-cart-white.svg"
+              alt="Cart icon"
+              title="Add to cart"
+              width="22"
+              height="20"
+            />
+            Add to cart
+          </button>
+        </form>
+          </section>
+        </section>
+      </div>
+    </main>
+    <template id="mobile-nav-template">
+      <div class="mobile-nav">
+        <nav>
+          <button type="button" class="mobile-menu-close">
+            <img decoding="async" loading="lazy"
+              src="/images/icon-close.svg"
+              alt="Close icon"
+              title="Close menu"
+            />
+          </button>
+          <ul>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </template>
+    <template id="cart-count-template">
+      <span class="cart-count"></span>
+    </template>
+    <template id="cart-empty-text-template">
+      <p class="cart-empty-text">Your cart is empty.</p>
+    </template>
+    <template id="cart-product-template">
+      <div class="cart_product">
+        <div class="cart_product__image">
+          <img decoding="async" loading="lazy" width="176" height="176" />
+        </div>
+        <div class="cart_product__description">
+          <p class="cart_product__description__name">
+            <strong></strong>
+          </p>
+          <p>
+            <span class="cart_product__description__price"></span> x
+            <span class="cart_product__description__count"></span>
+            <strong>
+              <span class="cart_product__description__total"></span>
+            </strong>
+          </p>
+        </div>
+        <button type="button" class="cart_product__remove">
+          <img decoding="async" loading="lazy"
+            src="/images/icon-delete.svg"
+            alt="Remove icon"
+            title="Remove product"
+            width="14"
+            height="16"
+          />
+        </button>
+      </div>
+    </template>
+    <template id="cart-product-checkout-button-template">
+      <button type="button" class="cart-checkout-button">Chekout</button>
+    </template>
+    <template id="cart-template">
+      <div class="cart">
+        <h3>Cart</h3>
+        <hr />
+        <section class="cart_products"></section>
+      </div>
+    </template>
+    <template id="lightbox-close-button-template">
+      <button type="button" class="lightbox-close-button">
+        <img decoding="async" loading="lazy"
+          src="/images/icon-close-white.svg"
+          alt="Close icon"
+          title="Close lightbox"
+          width="14"
+          height="15"
+        />
+      </button>
+    </template>
+    <script src="scripts/index.js" type="module" defer async></script>
+  </body>
+</html>

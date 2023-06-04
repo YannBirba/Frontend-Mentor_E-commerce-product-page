@@ -857,7 +857,7 @@ button:not(
   }
 
   header {
-    padding-block: 2vw;
+    padding-block: 38px;
     padding-inline: 0;
   }
 
@@ -886,7 +886,7 @@ button:not(
   header nav ul a::after {
     content: "";
     position: absolute;
-    top: 69px;
+    top: 71px;
     left: 0;
     width: 100%;
     height: 1px;
@@ -901,7 +901,6 @@ button:not(
     background: var(--orange);
     transition: all 0.2s ease;
     height: 4px;
-    top: 66px;
   }
 
   header nav ul a.active::after {
